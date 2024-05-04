@@ -34,7 +34,7 @@ include ("../admin/includes/header.php");
                                             <td><?= $item['id'];?> </td>
                                             <td><?= $item['title'];?></td>
                                             <td>
-                                                <img src="../images/<?= $item['img']; ?>" width="100" height="50px" alt="<?= $item['name'];?>">
+                                                <img src="../images/<?= $item['img']; ?>" width="100" height="50px" >
                                             <td>
                                                 <?= date('d-m-Y', strtotime($item['created_at'])); ?>
                                             </td> 

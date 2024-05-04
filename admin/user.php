@@ -36,7 +36,6 @@ $users = getAllUsers();
                                                     <div class="d-flex flex-column justify-content-center">
                                                         <h6 class="mb-0 text-sm"><?= $user['name'] ?></h6>
                                                         <p class="text-xs text-secondary mb-0"><?= $user['email'] ?></p>
-                                                        <p class="text-xs text-secondary mb-0"><?= $user['email'] ?></p>
                                                     </div>
                                                 </div>
                                             </td>
